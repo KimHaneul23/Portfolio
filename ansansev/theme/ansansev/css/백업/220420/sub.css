@@ -1,0 +1,393 @@
+/* sub_공통하단 */
+.sub_all_cont_wrap{position:relative; width:100%; overflow:hidden;}
+.sub_all_cont_tab{position:absolute; top:0; left:15%; width:333px; z-index:1;}
+.sub_all_cont_tab_logo{position:relative; width:100%; display:block;}
+.sub_all_cont_tab_ul{width:100%; height:100%;}
+.sub_all_cont_tab_ul > li{width:100%; box-sizing:border-box; background:#8e90a0; border-bottom:1px solid #d1d1d4; color:#fff;}
+.sub_all_cont_tab_ul > li:last-child{border-bottom:none;}
+.sub_all_cont_tab_ul > li.active{background:#101443;}
+.sub_all_cont_tab_ul > li > a{display:block; width:100%; height:100%;}
+.sub_all_cont_tab_ul > li > a > p{padding-left:6%; line-height:72px;}
+
+.sub_all_cont_tabcontent_wrap{position:relative; width:100%; height: 501px;}
+.sub_all_cont_tabcontent_wrap > .tabcontent{position:absolute; top:0; left:0; width:100%; height:100%;}
+.tabcontent01 > .sub_all_cont_tabcontent{position:relative; width:100%; height:100%; background: url(../sub/img/sub_all_tab_img01.jpg) 100% 50%/cover no-repeat;}
+.tabcontent02 > .sub_all_cont_tabcontent{position:relative; width:100%; height:100%; background: url(../sub/img/sub_all_tab_img02.jpg) 100% 50%/cover no-repeat;}
+.tabcontent03 > .sub_all_cont_tabcontent{position:relative; width:100%; height:100%; background: url(../sub/img/sub_all_tab_img03.jpg) 100% 50%/cover no-repeat;}
+.tabcontent04 > .sub_all_cont_tabcontent{position:relative; width:100%; height:100%; background: url(../sub/img/sub_all_tab_img04.jpg) 100% 50%/cover no-repeat;}
+.tabcontent05 > .sub_all_cont_tabcontent{position:relative; width:100%; height:100%; background: url(../sub/img/sub_all_tab_img05.jpg) 100% 50%/cover no-repeat;}
+.sub_all_cont_bottom_box{position:absolute; top:50%; left:52%; width:28%; transform:translate(-50%,-50%); -webkit-transform:translate(-50%,-50%); -moz-transform:translate(-50%,-50%); -ms-transform:translate(-50%,-50%); -o-transform:translate(-50%,-50%);}
+.sub_all_cont_bottom_text{width:100%;}
+.sub_all_cont_bottom_text01{position:relative;}
+.sub_all_cont_bottom_text01::after{content:''; position:absolute; top:5%; left:-5%; width:6px; height:90%; background:#333;}
+.sub_all_cont_bottom_text.c-w .sub_all_cont_bottom_text01::after{background:#fff;}
+
+
+/* sub1_1_특별함 */
+/* sub1_1_top_view */
+.sub1_1_content01{position:relative; width:100%; margin-top:75px;}
+.sub1_1_top_view{position:relative; width:100%; background:#d6d5d5;}
+.sub1_1_top_view_bg{position:relative; width:50%;}
+.sub1_1_top_view_text_wrap{position:relative; width:50%; padding-left:6%;}
+
+
+/* sub1_1_content02 */
+.sub1_1_content02_text > p{position:relative; }
+.sub1_1_content02_text > p::before{content:'Q.'; position:absolute; top: -40px; left: -34px; font-size:6.25rem; color:#e5e7eb; line-height:1; z-index:-1;}
+
+.sub_cont_img{max-width:560px; margin:0 auto;}
+.sub_cont_title{}
+.title_left{padding-left:2%;}
+.title_right{padding-left:10%;}
+
+.sub_cont_bottom_section{position:relative; width:97%; margin:0 auto; background: url(../sub/img/sub_cont_bottom_bg.jpg) 50% 50%/cover no-repeat;}
+.sub_cont_bottom_section > img{opacity:0;}
+.sub_cont_bottom_box{position:absolute; top:50%; left:auto; right:0; width:72%; transform:translateY(-50%); -webkit-transform:translateY(-50%); -moz-transform:translateY(-50%); -ms-transform:translateY(-50%); -o-transform:translateY(-50%);}
+.sub_cont_bottom_text{padding-right:8%;}
+.sub_cont_bottom_text01{position:relative;}
+.sub_cont_bottom_text01::after{content:''; position:absolute; top:5%; left:-5%; width:6px; height:90%; background:#1c2059;}
+
+
+
+/* sub1_2_의료진소개 */
+.sub1_2_content02{position:relative; background: url(../img/bg_logo.png) 50% 55%/15% no-repeat;}
+
+.sub1_2_cont03_swiper{position:relative; width:82%; margin-left:auto; margin-right:0; overflow:hidden;}
+.sub1_2_cont03_slide{width:auto !important;}
+.sub1_2_cont03_slide_img{position:relative; margin:0 10px;}
+
+/*
+.swiper-scrollbar.sub1_2_cont03_scrollbar{height: 4px; max-width: 360px; width: 90%; left:calc(50% - 180px); background:#f1f2ef; opacity:1; overflow:hidden;}
+.swiper-scrollbar.sub1_2_cont03_scrollbar > .swiper-scrollbar-drag{background:#012662; opacity:1;}
+*/
+
+.sub1_2_cont03_swiper > .swiper-pagination{
+    position:absolute; bottom:0; left:39%; width: 30%;
+    transform: translateX(-50%); -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%);
+}
+.sub1_2_cont03_swiper > .swiper-pagination .swiper-pagination-bullet{position:relative; width:4%; height:4px; border-radius:0; margin:0; padding:0; box-sizing:border-box; background:#f1f2ef; opacity: 1; vertical-align: middle;}
+.sub1_2_cont03_swiper > .swiper-pagination .swiper-pagination-bullet-active{width:18%; background:#012662;}
+
+
+
+/* sub1_3_둘러보기 · 오시는길 */
+.sub1_3_cont_text{position:relative; width:100%; border-bottom:1px solid #9b9b9b;}
+.sub1_3_cont05_text{max-width:1200px; margin:0 auto; border-bottom:none;}
+.sub1_3_cont_text > p{padding:1% 1%;}
+
+.sub1_3_cont02_map{overflow:hidden;}
+.sub1_3_cont02_info_wrap{position:relative; padding:0% 1%;}
+.sub1_3_cont02_info{width: 100%; line-height: 1.9444;}
+.sub1_3_cont02_info > tbody > tr > th{width:12%; text-align:left;}
+.sub1_3_cont02_info > tbody > tr > th,
+.sub1_3_cont02_info > tbody > tr > td{padding:0; color: #262626;}
+.sub1_3_cont02_info > tbody > tr > th{color: #000; font-weight:500;}
+.sub1_3_cont02_worktime > tbody > tr > th{width:auto;}
+.sub1_3_cont02_worktime{margin: 0.5em 0;}
+.sub1_3_cont02_worktime > tbody > tr > th,
+.sub1_3_cont02_worktime > tbody > tr > td{padding:0;}
+.sub1_3_cont02_worktime > tbody > tr > td.fz_14{display:block; width:80px; text-align:center; background:#101443; margin-left:10%; color:#fff; border-radius:50px;}
+
+
+.sub1_3_cont03_text{position:relative; padding:0% 1%;}
+.sub1_3_cont03_text01{width:14%; color:#262626;}
+.sub1_3_cont03_text02{color:#262626;}
+
+
+.sub1_3_cont04_text{position:relative; padding:0% 1%;}
+.sub1_3_cont04_text01{width:14%; color:#262626;}
+.sub1_3_cont04_text02{color:#262626;}
+
+
+.sub1_3_content05{position:relative; width:100%; overflow:hidden;}
+.sub1_3_cont05_swiper{position:relative; padding:40px 0 80px; overflow:hidden;}
+.sub1_3_cont05_swiper > .swiper-wrapper{margin-left: -8%;}
+.sub1_3_cont05_slide{width:auto !important;}
+.sub1_3_cont05_slide_img{position:relative; margin:0 10px;}
+.sub1_3_cont05_text > .swiper-button-next {
+    top:35%; right:60px; width:55px; height:65px; background: url(../img/main_cont03_next.png) 0% 0%/100% no-repeat;
+}
+.sub1_3_cont05_text > .swiper-button-prev {
+    top:35%; left:auto; right:115px; width:55px; height:65px; background: url(../img/main_cont03_prev.png) 0% 0%/100% no-repeat;
+}
+.sub1_3_cont05_text > .swiper-button-next::after,
+.sub1_3_cont05_text > .swiper-button-prev::after {
+    display: none;
+}
+.sub1_3_cont05_swiper > .swiper-pagination{
+    position:absolute; bottom:40px; left:50%; width:30%;
+    transform: translateX(-50%); -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%);
+}
+.sub1_3_cont05_swiper > .swiper-pagination .swiper-pagination-bullet{position:relative; width:4%; height:4px; border-radius:0; margin:0; padding:0; box-sizing:border-box; background:#f1f2ef; opacity: 1; vertical-align: middle;}
+.sub1_3_cont05_swiper > .swiper-pagination .swiper-pagination-bullet-active{width:20%; background:#012662;}
+
+
+
+
+/* sub2_1_치아교정의 특별함 */
+.sub2_1_content01{position:relative; width:100%; margin-top:75px;}
+.sub2_1_top_view_bg{position:relative; width:100%; }
+.sub2_1_top_view_text_wrap{position:absolute; top:55%; left:20%; transform:translateY(-50%); -webkit-transform:translateY(-50%); -moz-transform:translateY(-50%); -ms-transform:translateY(-50%); -o-transform:translateY(-50%);}
+
+.sub2_1_content02{position:relative; width:100%; border-bottom:1px solid #edeae4;}
+.sub2_1_cont02_text{position:relative; width:94%;}
+.sub2_1_cont02_text > p{position:relative; width:100%;}
+
+.sub2_1_content03{position:relative; background: url(../img/bg_logo.png) 50% 55%/30% no-repeat;}
+
+
+
+/* sub2_2_성장기 교정 */
+.sub2_2_top_view_bg{position:relative; width:100%; }
+.sub2_2_top_view_text_wrap{position:absolute; top:55%; left:55%; transform:translateY(-50%); -webkit-transform:translateY(-50%); -moz-transform:translateY(-50%); -ms-transform:translateY(-50%); -o-transform:translateY(-50%);}
+
+.sub2_2_content03{position:relative; width:100%; overflow:hidden;}
+.sub2_2_content03 > div > div{border-bottom:1px solid #c8c8c8;}
+.sub2_2_cont03_box01{position:relative; width:45%;}
+.sub2_2_cont03_box02{position:relative; width:55%;}
+
+.sub2_2_cont03_text_left{position:relative;}
+.sub2_2_cont03_text_left > p{position:relative; padding-left:3%;}
+.sub2_2_cont03_text_left > p::after{content:''; position:absolute; top:10%; left:0; width:6px; height:100%; background:#101443;}
+
+.sub2_2_cont03_box02_img01{margin-right:10px;}
+.sub2_2_cont03_box02_img01 > p{padding:4% 2%;}
+.sub2_2_cont03_box02_img02 > p{padding:4% 2%;}
+
+
+.sub2_2_content04{position:relative; width:100%; overflow:hidden;}
+.sub2_2_content04 > div > div{border-bottom:1px solid #c8c8c8;}
+.sub2_2_cont04_box{position:relative; width:100%; padding:0 10%;}
+.sub2_2_cont04_img{position:relative; max-width:277px; margin:0 auto; border:1px solid #edeae4; box-sizing:border-box;}
+.sub2_2_cont04_img > p{position:relative; width:100%; padding:5% 0 6%; background:#edeae4;}
+
+.sub2_2_content05{background: linear-gradient(#fff 30%, #edeae4);}
+.sub2_2_cont05_arrow{padding:0 1%;}
+.sub2_2_cont05_img > p{position:relative; width:100%; padding:3% 0 0;}
+.sub2_2_cont05_bottom_text{position:relative; width:100%; max-width:106px; margin:0 auto;}
+
+
+
+/* sub2_3_비발치 교정 */
+.sub2_3_cont03_box02_ul li{padding:4px 0; position: relative; padding-left:25px}
+.sub2_3_cont03_box02_ul li::before{ content:''; width:5px; height: 5px; position: absolute; top:44%; left:8px; background-color: #101443;}
+
+.sub2_3_cont04_box{position:relative; width:100%; padding:0 10%;}
+.sub2_3_cont04_img{position:relative; max-width:100%; margin:0 auto; box-sizing:border-box;}
+.sub2_3_cont04_img02::after{content:''; position:absolute; top:10%; left:0; width:1px; height:80%; background:#edeae4;}
+.sub2_3_cont04_img02::before{content:''; position:absolute; top:10%; right:0; width:1px; height:80%; background:#edeae4;}
+.sub2_3_cont04_img > p{position:relative; width:100%; height:80px; padding:5% 0 6%;}
+.sub2_3_cont04_img03 > p{line-height:47px;}
+
+.sub2_3_cont04_img > ul{padding-left:12%;}
+
+
+
+/* sub2_4_증상별 교정 */
+.sub_cont_wrap{position:relative; width:100%;}
+.sub2_4_cont_box{position:relative; width:100%; margin:0 0 11%;}
+.sub2_4_cont03_box01{position:relative; width:37%; padding:0 6% 0 0;}
+.sub2_4_cont03_box02{position:relative; width:63%; padding:2% 0 0;}
+
+.sub2_4_cont03_text_right{position:relative;}
+.sub2_4_cont03_text_right > p{position:relative; padding-left:2%;}
+.sub2_4_cont03_text_right > p::after{content:''; position:absolute; top:10%; left:0; width:6px; height:100%; background:#101443;}
+.sub2_4_cont_title_text{width:100%; padding:0 0 40px 2%; border-bottom:2px solid #e6e6e6; color:#393939;}
+.sub2_4_cont03_box02_ul li{width:50%; height: 32px; padding:4px 0; position: relative; padding-left:25px}
+.sub2_4_cont03_box02_ul li::before{content:''; position: absolute; top:10px; left:5px; width:16px; height: 14px; background: url(../sub/img/check-icon.svg) 50% 50%/cover no-repeat;}
+
+
+
+/* sub2_5_인비절라인 */
+.sub2_5_cont03_box02_ul li{position: relative; padding-left:25px}
+.sub2_5_cont03_box02_ul li::before{ content:''; width:5px; height: 5px; position: absolute; top:14px; left:8px; background-color: #101443;}
+
+.sub2_5_cont04_box{position: relative; width: 100%; padding: 0 4%;}
+.sub2_5_cont04_img02{position:relative;}
+.sub2_5_cont04_img02::after{content:''; position:absolute; top:30%; left:-6px; width:12px; height:14px; background: url(../sub/img/sub2_5_cont04_arrow.png) 50% 50%/cover no-repeat; transform:translateY(-50%); -webkit-transform:translateY(-50%); -moz-transform:translateY(-50%); -ms-transform:translateY(-50%); -o-transform:translateY(-50%);}
+.sub2_5_cont04_img02::before{content:''; position:absolute; top:30%; right:-6px; width:12px; height:14px; background: url(../sub/img/sub2_5_cont04_arrow.png) 50% 50%/cover no-repeat; transform:translateY(-50%); -webkit-transform:translateY(-50%); -moz-transform:translateY(-50%); -ms-transform:translateY(-50%); -o-transform:translateY(-50%);}
+
+
+
+/* sub3_1_네비게이션 임플란트 */
+.sub3_1_content03{position:relative;}
+.sub3_1_content03::before{content:'OneGuide'; position:absolute; top:17%; left:8%; color:#f7f7f7; font-size:8.125rem; font-weight:500; letter-spacing:-0.02em;}
+.sub3_1_cont02_box > div{max-width:353px;}
+.sub3_1_cont02_box > div:nth-child(2){margin:0 2%;}
+.sub3_1_cont03_box01_ul li{position: relative; padding-left:25px; color:#101443;}
+.sub3_1_cont03_box01_ul li::before{ content:''; width:5px; height: 5px; position: absolute; top:8px; left:8px; background-color: #101443;}
+.sub3_1_cont05_box01_ul li{position: relative; padding-left:25px; color:#101443;}
+.sub3_1_cont05_box01_ul li::before{ content:''; width:5px; height: 5px; position: absolute; top:12px; left:8px; background-color: #101443;}
+
+.sub3_1_cont03_box02_img01{position:relative; padding:2%; box-sizing:border-box; background:#fafafa;}
+.sub3_1_cont03_box02_img02{position:relative; padding:2%; box-sizing:border-box; background:#fafafa; border:2px solid #101443;}
+.sub3_1_cont03_box02_img01_box > p{width:100%; padding:2% 0 3%; background:#edeae4;}
+.sub3_1_cont03_box02_img02_box > p{width:100%; padding:2% 0 3%; background:#101443; color:#fff;}
+.sub3_1_cont03_box02_text01{width:100%; height:180px; padding:30px 0 0;}
+.sub3_1_cont03_box02_text02{width:100%; height:180px; padding:30px 0 0;}
+.sub3_1_cont03_box02_ul li{position: relative; padding-left:20px}
+.sub3_1_cont03_box02_ul li::before{ content:''; width:2px; height: 2px; position: absolute; top:9px; left:8px; background-color: #101443;}
+
+.sub3_1_cont04_box01{position:relative; width:100%;}
+.sub3_1_cont03_text_left{position:relative;}
+.sub3_1_cont03_text_left > p{position:relative;padding-left:1.5%;}
+.sub3_1_cont03_text_left > p::after{content:''; position:absolute; top:10%; left:0; width:6px; height:100%; background:#101443;}
+
+.sub3_1_cont04_box02{position:relative; width:100%;}
+.sub3_1_cont04_box02_item{position:relative; width:100%; max-width:255px; margin:0 auto;}
+.sub3_1_cont04_box02_item::after{position:absolute; top:58%; left:50%; width:33px; height:33px; line-height:32px; text-align:center; font-size:1.25rem; color:#fff; background:#101443; border-radius:100%; transform:translate(-50%,-50%); -webkit-transform:translate(-50%,-50%); -moz-transform:translate(-50%,-50%); -ms-transform:translate(-50%,-50%); -o-transform:translate(-50%,-50%); font-family: 'Sorts Mill Goudy', sans-serif;}
+.sub3_1_cont04_box02_item01::after{content:'01';}
+.sub3_1_cont04_box02_item02::after{content:'02';}
+.sub3_1_cont04_box02_item03::after{content:'03';}
+.sub3_1_cont04_box02_item04::after{content:'04';}
+.sub3_1_cont04_box02_item05::after{content:'05';}
+.sub3_1_cont04_box02_item06::after{content:'06'; line-height:35px;}
+.sub3_1_cont04_box02_img{position:relative; width:100%;}
+.sub3_1_cont04_box02_text{position:relative; width:100%; border:1px solid #e6e6e6; border-top:none;}
+.sub3_1_cont04_box02_text > p{color:#101443; padding:10% 0;}
+.sub3_1_cont04_box02_list > .column_quarter{position:relative;}
+.sub3_1_cont04_box02_list > .column_quarter::before{content:''; position:absolute; top:30%; right:-6px; width:12px; height:14px; background: url(../sub/img/sub2_5_cont04_arrow.png) 50% 50%/cover no-repeat; transform:translateY(-50%); -webkit-transform:translateY(-50%); -moz-transform:translateY(-50%); -ms-transform:translateY(-50%); -o-transform:translateY(-50%);}
+.sub3_1_cont04_box02_list > .column_quarter:last-child::before{display:none;}
+
+.sub3_cont_bottom_section{position:relative; width:97%; margin:0 auto; background: url(../sub/img/sub3_cont_bottom_bg.jpg) 50% 50%/cover no-repeat;}
+.sub3_cont_bottom_section > img{opacity:0;}
+.sub3_cont_bottom_box{position:absolute; top:50%; left:auto; right:0; width:72%; transform:translateY(-50%); -webkit-transform:translateY(-50%); -moz-transform:translateY(-50%); -ms-transform:translateY(-50%); -o-transform:translateY(-50%);}
+.sub3_cont_bottom_text{padding-right:8%;}
+.sub3_cont_bottom_text01{position:relative;}
+.sub3_cont_bottom_text01::after{content:''; position:absolute; top:5%; left:-5%; width:6px; height:90%; background:#1c2059;}
+
+
+/* sub3_2_발치즉시 임플란트 */
+.sub3_2_cont05_box02{position:relative; width:100%; margin-left:2%;}
+.sub3_2_cont05_box02_item{position:relative; width:100%; margin:0 0 6%;}
+.sub3_2_cont05_box02_text{position:relative; width:12%; border-radius:100%; margin-right:10px;}
+.sub3_2_cont05_box02_text > p{color:#fff;}
+.sub3_2_cont05_box02_text01{background:#d2d2d2;}
+.sub3_2_cont05_box02_text01 > p{padding:30% 0;}
+.sub3_2_cont05_box02_text02{background:#101443;}
+.sub3_2_cont05_box02_text02 > p{padding:32% 0;}
+.sub3_2_cont05_box02_img{position:relative; width:88%;}
+.sub3_2_cont05_box02_img02{width:58%;}
+
+
+/* sub3_3_뼈이식 임플란트 */
+.sub3_3_cont05_box02_list{max-width:80%; margin:0 auto;}
+.sub3_3_cont05_box02_list > div{position:relative; margin:0 0 6%;}
+.sub3_3_cont05_box02_list > div::before{content:''; position:absolute; top:30%; right:-6px; width:12px; height:14px; background: url(../sub/img/sub2_5_cont04_arrow.png) 50% 50%/cover no-repeat; transform:translateY(-50%); -webkit-transform:translateY(-50%); -moz-transform:translateY(-50%); -ms-transform:translateY(-50%); -o-transform:translateY(-50%);}
+.sub3_3_cont05_box02_list > div:nth-child(3)::before{display:none;}
+.sub3_3_cont05_box02_list > div:last-child::before{display:none;}
+.sub3_1_cont04_box02_item.sub3_3_cont05_box02_item::after{top:65%;}
+.sub3_3_cont05_box02_text > p{padding:13% 0 10%;}
+
+
+/* sub3_4_상악동 거상술 */
+
+
+/* sub3_5_발치와 보존술 */
+.sub3_5_cont04_box02_item::after{top:56%;}
+.sub3_5_cont04_box02_text01 > p{padding:22% 0 20%;}
+.sub3_5_cont04_box02_text02 > p{padding:18% 0 15%;}
+.sub3_5_cont04_box02_text03 > p{padding:13% 0 10%;}
+.sub3_5_cont04_box02_text04 > p{padding:18% 0 15%;}
+
+
+/* sub3_6_임플란트 재수술 */
+
+
+/* sub3_7_임플란트 보험치료 */
+.sub3_7_cont03_box03{position:relative; width:68%; margin:0 auto;}
+.sub3_7_cont03_table{width:100%;}
+.sub3_7_cont03_table .first_tr{background:#bfcfdf; color:#000;}
+.sub3_7_cont03_tr{background:#f6f6f6;}
+.sub3_7_cont03_tr > th{width:30%; text-align:center; vertical-align:middle; border-bottom:2px solid #fdfcf9; border-right:2px solid #fdfcf9;}
+.sub3_7_cont03_tr.first_tr > td{padding:1.5%; text-align:center;}
+.sub3_7_cont03_tr > td{width:70%; padding:3%; text-align:left; line-height:1.8; border-bottom:2px solid #fdfcf9;}
+.sub3_7_cont03_tr:last-child > th{border-bottom:none;}
+.sub3_7_cont03_tr:last-child > td{border-bottom:none;}
+
+.sub3_7_cont04_box02{position:relative; width:60%; margin-left:auto; margin-right:0;}
+.sub3_7_cont04_box01_ul_q{color:#010101;}
+.sub3_7_cont04_box01_ul_a{color:#101443;}
+
+
+/* sub4_1_신경치료 */
+.sub4_1_cont05_box02_list > div{position:relative;}
+.sub4_1_cont05_box02_list > div::before{content:''; position:absolute; top:6.5rem; right:-6px; width:12px; height:14px; background: url(../sub/img/sub2_5_cont04_arrow.png) 50% 50%/cover no-repeat; transform:translateY(-50%); -webkit-transform:translateY(-50%); -moz-transform:translateY(-50%); -ms-transform:translateY(-50%); -o-transform:translateY(-50%);}
+.sub4_1_cont05_box02_list > div:last-child::before{display:none;}
+.sub4_1_cont05_box02_text_step{width:110px; margin-left:auto; margin-right:auto; padding:7px 0 8px; border-radius:25px;}
+.sub4_1_cont05_box02_text_step01{background:#f4ede5; color:#000;}
+.sub4_1_cont05_box02_text_step02{background:#f0e1b0; color:#000;}
+.sub4_1_cont05_box02_text_step03{background:#d1be95; color:#000;}
+.sub4_1_cont05_box02_text_step04{background:#101443; color:#fff;}
+
+.sub4_1_cont06_arrow{padding:0 1% 4%;}
+
+
+/* sub4_3_치근단수술 */
+.sub4_3_cont05_box02_text{height:125px;}
+.sub4_3_cont05_box02_text > p{padding:36px 0 0;}
+.sub3_1_cont04_box02_item.sub4_3_cont05_box02_item::after{top:61%;}
+
+
+
+/* sub5_1_잇몸치료 */
+.sub5_1_cont05_box02_list{max-width:100%; margin:0 auto;}
+.sub5_1_cont05_box02_list > div{position:relative; padding:0 2%;}
+.sub5_1_cont05_box02_list > div::before{content:''; position:absolute; top:50%; right:-6px; width:12px; height:14px; background: url(../sub/img/sub2_5_cont04_arrow.png) 50% 50%/cover no-repeat; transform:translateY(-50%); -webkit-transform:translateY(-50%); -moz-transform:translateY(-50%); -ms-transform:translateY(-50%); -o-transform:translateY(-50%);}
+.sub5_1_cont05_box02_list > div:last-child::before{display:none;}
+.sub5_1_cont05_box02_item{position:relative; width:100%; height:415px; margin:0 auto; padding:8%; background:#faf8f6; place-content:flex-start;}
+.sub5_1_cont05_box02_item::after{position:absolute; top:52%; left:50%; width:33px; height:33px; line-height:32px; text-align:center; font-size:1.25rem; color:#fff; background:#101443; border-radius:100%; transform:translate(-50%,-50%); -webkit-transform:translate(-50%,-50%); -moz-transform:translate(-50%,-50%); -ms-transform:translate(-50%,-50%); -o-transform:translate(-50%,-50%); font-family: 'Sorts Mill Goudy', sans-serif;}
+.sub5_1_cont05_box02_item01::after{content:'01';}
+.sub5_1_cont05_box02_item02::after{content:'02';}
+.sub5_1_cont05_box02_item03::after{content:'03';}
+.sub5_1_cont05_box02_item04::after{content:'04';}
+.sub5_1_cont05_box02_item05::after{content:'05';}
+.sub5_1_cont05_box02_item06::after{content:'06'; line-height:35px;}
+.sub5_1_cont05_box02_img{position:relative; width:100%;}
+.sub5_1_cont05_box02_text{position:relative; width:100%;}
+.sub5_1_cont05_box02_ul > li{position: relative; padding-left:20px}
+.sub5_1_cont05_box02_ul > li::before{ content:''; width:2px; height: 2px; position: absolute; top:10px; left:8px; background-color: #101443;}
+.sub5_1_cont05_box02_ul > li > p{display:inline-block;}
+
+
+/* sub5_2_치아미백 */
+.sub5_2_cont03_box01{width:40%;}
+.sub5_2_cont03_box02{width:60%;}
+
+.sub5_2_cont05_box02_li_box{position:relative; width:100%; padding:2% 0; border-bottom:1px solid #e8e8e9;}
+.sub5_2_cont05_box02_li_box03:last-child{border-bottom:none;}
+.sub5_2_cont05_box02_img{margin-right:6%;}
+
+
+/* sub5_3_충치치료 */
+.sub5_3_cont05_box02_list{max-width:90%; margin:0 auto;}
+.sub5_3_cont05_box02_list > div{position:relative; padding:0 2%;}
+.sub5_3_cont05_box02_item{position:relative; width:100%; margin:0 auto; padding:0 0; place-content:flex-start;}
+.sub5_3_cont05_box02_img{position:relative; width:100%;}
+.sub5_3_cont05_box02_text{position:relative; width:100%; height:300px; padding:80px 0 0; margin-top:-50px; box-sizing: border-box; border:2px solid #eeeeee; z-index:-1;}
+.sub5_3_cont05_box02_ul{position: relative; }
+.sub5_3_cont05_box02_ul > li{position: relative; width:84%; padding-left:20px;}
+.sub5_3_cont05_box02_ul > li::before{ content:''; width:2px; height: 2px; position: absolute; top:10px; left:8px; background-color: #101443;}
+.sub5_3_cont05_box02_ul > li > p{display:inline-block;}
+
+
+/* sub5_4_사랑니 발치 */
+
+
+
+/* sub5_5_턱관절 치료 */
+.sub5_5_cont05_box02_list{max-width:94%; margin:0 auto;}
+.sub5_5_cont05_box02_item{width:92%;}
+.sub5_5_cont05_box02_text{position:relative; width:100%; max-width:231px; height:200px; padding:40px 10px 0; box-sizing: border-box; border:1px solid #eeeeee; border-top:none;}
+
+
+
+/* sub5_6_보철치료 */
+.sub5_6_cont05_box02_li_box{border-bottom:none;}
+.sub5_6_cont05_box02{width:80%;}
+.sub5_6_cont05_box02_li_box > .sub5_2_cont05_box02_img{margin-right:4%;}
+
+
+
+
+

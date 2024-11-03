@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap');
+
+@font-face {
+    font-family: "Monotype Corsiva"; 
+    src: url("https://db.onlinewebfonts.com/t/d85e6ab19860a0a1cc2c3d7a3eb7f98c.eot"); 
+    src: url("https://db.onlinewebfonts.com/t/d85e6ab19860a0a1cc2c3d7a3eb7f98c.eot?#iefix") format("embedded-opentype"), 
+        url("https://db.onlinewebfonts.com/t/d85e6ab19860a0a1cc2c3d7a3eb7f98c.woff2") format("woff2"), 
+        url("https://db.onlinewebfonts.com/t/d85e6ab19860a0a1cc2c3d7a3eb7f98c.woff") format("woff"), 
+        url("https://db.onlinewebfonts.com/t/d85e6ab19860a0a1cc2c3d7a3eb7f98c.ttf") format("truetype"), 
+        url("https://db.onlinewebfonts.com/t/d85e6ab19860a0a1cc2c3d7a3eb7f98c.svg#Monotype Corsiva") format("svg"); 
+}
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+    src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), 
+        url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), 
+        url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 700;
+    src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
+    src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), 
+        url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), 
+        url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 300;
+    src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot');
+    src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), 
+        url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), 
+        url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype');
+}
+
+
+/* Fonts */
+.nanummyeongjo *,.nanummyeongjo {
+  font-family: 'Noto Serif KR', serif;
+	-webkit-font-smoothing: antialiased;
+    letter-spacing: -0.02em;
+}
+.marcellus *,.marcellus {
+  font-family: 'Marcellus','Noto Sans KR', sans-serif;
+}
+.sortsmillgoudy *,.sortsmillgoudy {
+  font-family: 'Sorts Mill Goudy', sans-serif;
+}
+.notosans *,.notosans {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.monotypecorsiva *,.monotypecorsiva {
+  font-family: "Monotype Corsiva", sans-serif;
+}
+.nanumbarungothic *,.nanumbarungothic {
+    font-family: 'NanumBarunGothic', sans-serif;
+}
+
+
+
+/* Common */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html, body{
+	font:300 16px/1.3 'Noto Sans KR', sans-serif;
+	color: #333;
+    overflow-x: hidden !important;
+}
+body.open{width:100%; height:100%; overflow: hidden;}
+body *{box-sizing: border-box; word-break: keep-all;}
+a:hover, a:link, a:visited, a:active {text-decoration: none; color: inherit;}
+hr{border:0; margin:0; width:100%; height:1px; background: #fff;}
+button{font-family: inherit;}
+address {font-style: normal;}
+
+/*
+input{
+  ios대응<!-- 주석해야됌 -->
+  appearance: none;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+*/
+select{
+  /*ios대응*/
+  -webkit-appearance: none;
+  -moz-appearance: none; 
+  appearance: none;
+
+  /*화살표 배경 넣기*/
+  background: url('../img/select-down-arrow.svg') no-repeat 93% 50% rgba(255, 255, 255, 0); background-size:12px;/*화살표 select박스 오른쪽 중앙 배치,배경 흰색*/
+}
+select::-ms-expand{ 
+  display:none; /* 화살표 없애기 for IE10, 11*/
+}
+a { -webkit-tap-highlight-color:transparent;}
+* {-webkit-tap-highlight-color:transparent;}
+img {max-width: 100%; vertical-align: top;}
+
+:root {
+    --vh: 100%;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f0f0f0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #012662;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #0040a8;
+}
+
+.container {padding: 0 65px;}
+
+.dp_ib {display: inline-block;}
+
+.p_r{position:relative;}
+
+
+/* skip */
+#skip a {position: absolute; top: 0; left: -9999px; z-index: 1000;}
+#skip a:focus, #skip a:active {display: block; top: 0; left: 0;  width: 100%; padding: 10px 0; background: #345243; color: #fff; text-align: center;}
+
+/* hide text */
+.blind {font-size: 0; line-height: 0; width: 1px; height: 1px; line-height: 1px; text-align: -9999px; overflow: hidden; position: absolute; top: 0; left: -9999px;}
+.ir_text{display: block; width: 100%; height: 100%; text-indent: -9999em;}
+
+/* font-size */   
+.h1{font-size:2.813rem; line-height: 1.4;}
+.h2{font-size:2.5rem; line-height: 1.4;}
+.h3{font-size:2.25rem; line-height: 1.4;}
+.h4{font-size:1.875rem; line-height: 1.4;}
+.h5{font-size:1.563rem; line-height: 1.4;}
+.h6{font-size:1.5rem; line-height: 1.4;}
+
+.fz_14{font-size: 0.875rem;}
+.fz_15{font-size: 0.938rem;}
+.fz_16{font-size: 1rem; line-height: 1.6;}
+.fz_17{font-size: 1.063rem; line-height: 1.6;}
+.fz_18{font-size: 1.125rem; line-height: 1.6;}
+.fz_19{font-size: 1.188rem; line-height: 1.6;}
+.fz_20{font-size: 1.25rem; line-height: 1.6;}
+.fz_21{font-size: 1.313rem; line-height: 1.6;}
+.fz_22{font-size: 1.375rem; line-height: 1.6;}
+.fz_23{font-size: 1.438rem; line-height: 1.6;}
+.fz_24{font-size: 1.5rem; line-height: 1.6;}
+.fz_25{font-size: 1.563rem; line-height: 1.6;}
+.fz_26{font-size: 1.625rem; line-height: 1.6;}
+.fz_27{font-size: 1.688rem; line-height: 1.6;}
+.fz_28{font-size: 1.75rem; line-height: 1.6;}
+.fz_29{font-size: 1.813rem; line-height: 1.6;}
+.fz_30{font-size: 1.875rem; line-height: 1.6;}
+.fz_31{font-size: 1.938rem; line-height: 1.6;}
+.fz_32{font-size: 2rem; line-height: 1.6;}
+.fz_33{font-size: 2.063rem; line-height: 1.6;}
+.fz_34{font-size: 2.125rem; line-height: 1.6;}
+.fz_35{font-size: 2.188rem; line-height: 1.6;}
+.fz_36{font-size: 2.25rem; line-height: 1.6;}
+.fz_37{font-size: 2.313rem; line-height: 1.6;}
+.fz_38{font-size: 2.375rem; line-height: 1.6;}
+.fz_39{font-size: 2.438rem; line-height: 1.6;}
+.fz_40{font-size: 2.5rem; line-height: 1.6;}
+.fz_42{font-size: 2.625rem; line-height: 1.6;}
+.fz_45{font-size: 2.813rem; line-height: 1.6;}
+.fz_48{font-size: 3rem; line-height: 1.6;}
+.fz_50{font-size: 3.125rem; line-height: 1.4;}
+.fz_55{font-size: 3.438rem; line-height: 1.4;}
+.fz_70{font-size: 4.375rem; line-height: 1.4;}
+.fz_75{font-size: 4.688rem; line-height: 1.4;}
+.fz_80{font-size: 5rem; line-height: 1.4;}
+.fz_85{font-size: 5.313rem; line-height: 1.4;}
+.fz_90{font-size: 5.625rem; line-height: 1.4;}
+.fz_95{font-size: 5.938rem; line-height: 1.4;}
+.fz_100{font-size: 6.25rem; line-height: 1.4;}
+
+
+
+/* font style */
+.ta_c{text-align: center;}
+.ta_l{text-align: left;}
+.ta_r{text-align: right;}
+
+.light{font-weight: 300;}
+.normal{font-weight: 400;}
+.medium{font-weight: 500;}
+.bold{font-weight: 700;}
+
+.c-w{color: #fff;}
+.c-b {color: #000;}
+.c-gray {color: #aaaaaa;}
+.c-gray2 {color: #f4f4f4;}
+
+.lh_1{line-height: 1;}
+.lh_11{line-height: 1.1;}
+.lh_12{line-height: 1.2;}
+.lh_13{line-height: 1.3;}
+.lh_14{line-height: 1.4;}
+.lh_15{line-height: 1.5;}
+.lh_16{line-height: 1.6;}
+.lh_18{line-height: 1.8;}
+
+.ls_2{letter-spacing:-0.02em;}
+
+/* margin-bottom */
+.m_5{margin-bottom: 5px;}
+.m_10{margin-bottom: 10px;}
+.m_20{margin-bottom: 20px;}
+.m_30{margin-bottom: 30px;}
+.m_40{margin-bottom: 40px;}
+.m_50{margin-bottom: 50px;}
+.m_60{margin-bottom: 60px;}
+.m_80{margin-bottom: 80px;}
+.m_100{margin-bottom: 100px;}
+.m_120{margin-bottom: 120px;}
+.m_160{margin-bottom: 160px;}
+.m_200{margin-bottom: 200px;}
+
+/* margin-left */
+.ml_10{margin-left: 10px;}
+.ml_20{margin-left: 20px;}
+.ml_30{margin-left: 30px;}
+.ml_40{margin-left: 40px;}
+
+/* padding */
+.pd_60{padding: 60px 0;}
+.pd_80{padding: 80px 0;}
+.pd_100{padding: 100px 0;}
+.pd_120{padding: 120px 0;}
+.pd_160{padding: 160px 0;}
+.pd_200{padding: 200px 0;}
+
+/* padding-top */
+.pt_5{padding-top: 5px;}
+.pt_10{padding-top: 10px;}
+.pt_60{padding-top: 60px;}
+.pt_80{padding-top: 80px;}
+.pt_100{padding-top: 100px;}
+.pt_160{padding-top: 160px;}
+.pt_200{padding-top: 200px;}
+.pt_210{padding-top: 210px;}
+.pt_230{padding-top: 230px;}
+.pt_250{padding-top: 250px;}
+
+.m_auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.mx300{max-width: 300px;}
+.mx400{max-width: 400px;}
+.mx500{max-width: 500px;}
+.mx520{max-width: 520px;}
+.mx540{max-width: 540px;}
+.mx550{max-width: 550px;}
+.mx570{max-width: 570px;}
+
+/* flex-box */
+.flex_row{display: flex; }
+.flex_row.fw{flex-wrap:wrap; }
+.flex_row.al_fs{display: flex; align-items: flex-start;}
+.flex_row.center{display: flex; align-items: center;}
+.flex_row.jc_center{justify-content: center;}
+.flex_row.jc_fs{justify-content: flex-start;}
+.flex_row.jc_fe{justify-content: flex-end;}
+.flex_row.sb{justify-content:space-between;}
+.flex_row.sa{justify-content:space-around;}
+.flex_row.se{justify-content:space-evenly;}
+.flex_row.fd_c{flex-direction:column;}
+
+.column_half {width: 50%;}
+.column_third{width: 33.3333%;}
+.column_third_30{width: 30%;}
+.column_quarter {width: 25%;}
+.column_fifth{width: 20%;}
+
+.container-md{width: 100%; max-width: 1440px; margin-left: auto; margin-right: auto; padding:0 40px; position: relative;}
+.container-sm{width: 100%; max-width: 1400px; margin-left: auto; margin-right: auto; padding:0 40px; position: relative;}
+.container-1200{width: 100%; max-width: 1200px; margin-left: auto; margin-right: auto; padding:0; position: relative;}
+.container-xs{width: 100%; max-width: 1100px; margin-left: auto; margin-right: auto; padding:0 40px; position: relative;}
+
+.pc_cont{display:block; opacity:1; visibility:visible;}
+.m_cont{display:none; opacity:0; visibility:hidden;}
+
+.pc_cont_480{display:block; opacity:1; visibility:visible;}
+.m_cont_480{display:none; opacity:0; visibility:hidden;}
+
+
+
+
+/* smooth-scroll */
+.smooth-scroll{position:relative; overflow:hidden;}
+
+
+/* header */
+.main-header {position:fixed; top:0; left:0; width: 100%; height:auto; z-index:15;}
+
+.ht-inner {width:100%; margin-left: auto; margin-right: auto; padding:2% 10%; box-shadow:none; background:#fff; display: flex; justify-content: space-between; align-items: center; transition: 0.3s ease-in-out;}
+.ht-inner.scrolled{background:#fff;}
+.ht-inner__left, .ht-inner__right {width:30%; height:100%; display: flex; align-items: center;}
+.ht-inner__center{width:40%; height:100%; display: flex; align-items: center;}
+.ht-inner__right{justify-content: flex-end;}
+.ht-inner__center{justify-content: center;}
+
+/* top_menu_nav */
+.top_menu_nav{position:relative; width:100%; background:#f4f5f6;}
+.top_menu_inner{position:relative; width:100%; max-width:1400px; margin:0 auto;}
+.top_menu{position:relative; width:25%; padding:15px 0;}
+
+/* footer */
+.footer{position:relative; width:100%; padding:3% 0; background:#363636;}
+.foot-info-area{position:relative; width:100%; max-width:1200px; margin:0 auto;}

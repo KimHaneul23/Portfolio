@@ -1,0 +1,19 @@
+.swiper-wrapper{height:auto;}
+
+.main_visual{margin-top:167px;}
+
+.doctor_sect{position:relative;}
+.doctor_box_wrap{position:relative;}
+.doctor_box_wrap::after{
+    content:''; position:absolute; top:50%; left:50%; width:434px; height:434px; 
+    background:url('../img/doctor_sect_bg_logo.png') 50% 50%/100% no-repeat;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.doctor_sect_img01{background:#fff;}
+.doctor_sect_img02{background:#f4f4f4;}
+.doctor_sect_img01 > img{width: 36.612%;}
+.doctor_sect_img02 > img{width: 42.574%;}
