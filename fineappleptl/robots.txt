@@ -1,0 +1,12 @@
+User-agent: *
+Allow:/
+Disallow: /bbs/confirm.php
+Disallow: /shop/
+Disallow: /plugins/
+Disallow: /shop/orderinquiry.php
+Disallow: /bbs/password_lost.php
+Disallow: /bbs/search.php
+Disallow: /bbs/alert_close.php
+Disallow: /bbs/alert_close.php
+
+sitemap: http://www.fineappleptl.com/sitemap.xml
